@@ -23,7 +23,7 @@ metadata:
         ingress.kubernetes.io/auth-secret: kibana-basic-auth
 spec:
     rules:
-      - host: "kibana.k8s"
+      - host: kibana.35.239.24.247.nip.io 
         http:
             paths:
                 - path: /
